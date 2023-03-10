@@ -2,7 +2,7 @@
 
 clone uboot code
 ```
-git clone https://github.com/gl-inet/uboot-ipq40xx.git
+git clone https://github.com/ivybridgei/uboot-ipq40xx.git
 ```
 clone sdk, ie. toolchain to compile uboot:
 ```
