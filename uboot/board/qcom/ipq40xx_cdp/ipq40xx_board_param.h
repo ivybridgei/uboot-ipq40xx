@@ -998,7 +998,7 @@ gpio_func_data_t ap_dk07_1_c1_sw_gpio_bga[] = {
 	},
 	/*S1300-dk07 based: gpio led status, set by writel(GPIO_OUT, GPIO_IN_OUT_ADDR(2)); */
 	{
-		.gpio = 60, //wifi
+		.gpio = 50, //wifi
 		.func = 0,
 		.pull = GPIO_NO_PULL,
 		.drvstr = GPIO_2MA,
@@ -1018,7 +1018,7 @@ gpio_func_data_t ap_dk07_1_c1_sw_gpio_bga[] = {
 		.gpio_pu_res = GPIO_PULL_RES2
 	},
 	{
-		.gpio = 57, //power
+		.gpio = 36, //power
 		.func = 0,
 		.pull = GPIO_NO_PULL,
 		.drvstr = GPIO_2MA,
