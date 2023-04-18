@@ -865,7 +865,7 @@ gpio_func_data_t sw_gpio_bga[] = { //s1300 ap_dk04.1-c1
 		.gpio_pu_res = GPIO_PULL_RES2
 	},
 	{
-		.gpio = 36, //power
+		.gpio = 57, //power
 		.func = 0,
 		.pull = GPIO_NO_PULL,
 		.drvstr = GPIO_2MA,
@@ -1018,7 +1018,7 @@ gpio_func_data_t ap_dk07_1_c1_sw_gpio_bga[] = {
 		.gpio_pu_res = GPIO_PULL_RES2
 	},
 	{
-		.gpio = 36, //power
+		.gpio = 57, //power
 		.func = 0,
 		.pull = GPIO_NO_PULL,
 		.drvstr = GPIO_2MA,
